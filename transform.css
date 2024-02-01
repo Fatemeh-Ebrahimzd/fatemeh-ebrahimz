@@ -1,0 +1,409 @@
+body {
+    background-color: rgb(227, 228, 230);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+div {
+ display: flex;
+ justify-content: flex-start;
+ flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    /* border: .25px solid black; */
+    margin: 2rem;
+    box-shadow: 10px 5px 5px #dbdada;
+}
+article {
+    width: 150px;
+    height: 150px;
+    margin: 1.5rem; 
+}
+.box1 {
+    
+    background-color:rgb(216, 214, 211);
+    position: relative;
+   
+}
+.box2 {
+    
+    background-color: rgb(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s;
+   
+}
+.box2:hover {
+    transform: rotate(45deg);
+}
+.box3a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+}
+.box3b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s;
+     
+}
+.box3b:hover {
+    transform: rotateX(55deg);
+}
+.box4a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box4b {
+    background-color: rgba(212, 86, 216, 50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box4b:hover {
+    transform: rotateY(55deg);
+}
+.box5a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box5b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box5b:hover {
+    transform: scale(1.8);
+}
+.box6a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box6b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box6b:hover {
+    transform: scaleX(1.5)
+}
+.box7a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box7b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box7b:hover {
+    transform: scaleY(1.5)
+}
+.box8a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box8b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box8b:hover {
+    transform: skew(45deg);
+}
+.box9a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box9b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box9b:hover {
+    transform: skewY(45deg);
+}
+.box10a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box10b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box10b:hover {
+   transform: translate(50px, 50px);
+}
+.box11a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box11b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box11b:hover {
+    transform: translateX(60px)
+}
+.box12a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box12b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box12b:hover {
+    transform: translateY(60px)
+}
+.box13a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box13b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box13b:hover {
+    transform: skewY(45deg) scale(1.5) ;
+}
+.option {
+    margin: 0 25rem;
+
+}
+.box14a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box14b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box14b:hover {
+    transform: perspective(150px) rotateX(45deg);
+}
+.box15a {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box15b {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+}
+.box15b:hover {
+    transform: perspective(150px) rotateY(45deg);
+}
+.box1c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box1d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s ease; 
+    transform-origin: top right;
+}
+.box1d:hover {
+    
+    transform: rotate(45deg);
+}
+.box2c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box2d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s ease;
+    transform-origin: bottom left; 
+}
+.box2d:hover {
+    
+    transform: rotate(45deg);
+}
+.box3c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box3d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s; 
+    transform-origin: left;
+}
+.box3d:hover {
+     
+    transform: perspective(200px) rotateX(45deg);
+    
+}
+.box4c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box4d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s ease; 
+    transform-origin: top;
+}
+.box4d:hover {
+    
+    transform: perspective(500px) rotateX(45deg);
+}
+.box5c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box5d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s ease;
+    transform-origin: left; 
+}
+.box5d:hover {
+   
+    transform: perspective(500px) rotateY(56deg);
+}
+.box6c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box6d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s ease;
+    transform-origin: right; 
+}
+.box6d:hover {
+    
+    transform: perspective(500px) rotateY(56deg);
+}
+.box7c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box7d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s ease; 
+    transform-origin: top right;
+}
+.box7d:hover {
+    
+    transform: scale(2);
+}
+.box8c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box8d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s ease;
+    transform-origin: bottom left; 
+}
+.box8d:hover {
+    
+    transform: scale(1.5);
+}
+.box9c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box9d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s;
+    transform-origin: 100% 0 0;
+    transform-origin: 100% 0 0;
+    
+}
+.box9d:hover {
+    
+    transform: scaleX(1.5);
+
+    
+}
+.box10c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box10d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    
+    transition: all 1s;
+    transform-origin:  left 0 0;
+}
+.box10d:hover {
+    transform-origin:  left 0 0;
+    transform: scaleX(1.5) ;
+
+    
+}
+.box11c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box11d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+   
+    transition: all 1s;
+    transform-origin:  left 0 0;
+}
+.box11d:hover {
+    transform-origin:  top 0 0;
+    transform: scaleY(1.5) ;
+
+    
+}
+.box12c {
+    background-color:rgb(216, 214, 211);
+    position: relative;  
+    
+}
+.box12d {
+    background-color: rgba(212, 86, 216,50%);
+    position: absolute;
+    transition: all 1s;
+    transform-origin: bottom 0 0;
+    
+}
+.box12d:hover {
+    transform-origin: top 100% ;
+    transform: scaleY(1.5) ;
+}
+
